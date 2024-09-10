@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #7c7171;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .App {
+      padding: 10px;
+  }
+
+  input, button {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  ul {
+      padding: 0;
+  }
+}
